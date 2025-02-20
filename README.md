@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body { font-family: 'Sacramento',cursive; text-align: center;
-        background-image: <img src="WhatsApp Image 2025-02-20 at 11.08.03 PM.jpeg">; 
+        background-image: url("WhatsApp Image 2025-02-20 at 11.08.03 PM.jpeg"); 
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat; 
