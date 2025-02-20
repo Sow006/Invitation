@@ -6,15 +6,11 @@
     <title>Invitation</title>
     <style>
         body { font-family: 'Sacramento',cursive; text-align: center;
-        background-image: <img src="WhatsApp Image 2025-02-20 at 11.08.03 PM.jpeg">; /* Image path */
-    background-size: contain; /* Cover full screen */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent tiling */
-    background-attachment: fixed; /* Keeps it fixed while scrolling */
-    
-    
-    
-    
+        background-image: <img src="WhatsApp Image 2025-02-20 at 11.08.03 PM.jpeg">; 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     }
         .container { max-width: 600px; margin: auto; padding: 20px; }
         button { font-family: 'Pacifico',cursive; background-color: #0080ff; color: rgb(15, 14, 14); padding: 10px 15px; cursor: pointer; }
