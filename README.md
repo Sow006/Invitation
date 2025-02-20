@@ -40,10 +40,8 @@
             transition: 0.3s;
             animation:  infinite alternate;
         }
-
         .glow-btn:hover {
-            background: #0059ff4e;
-            
+            background: #0059ff4e;   
         }
         .outlined-text {
             font-size: 50px;
@@ -51,7 +49,6 @@
             color: rgba(7, 113, 113, 0.804); /* Text color */
             -webkit-text-stroke: 2px; /* Outline color and thickness */
         }
-
     </style>
 </head>
 <body>
