@@ -3,79 +3,107 @@
   display: none;
 }
 
-        body { font-family: 'Sacramento',cursive; text-align: center;
-        background-image: url('https://github.com/Sow006/sow006.github.io/blob/main/WhatsApp%20Image%202025-02-20%20at%2011.08.03%20PM.jpeg?raw=true'); /* Image path */
-    background-size: contain; /* Cover full screen */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent tiling */
-    background-attachment: fixed; /* Keeps it fixed while scrolling */
     
-    
-    
-    
-    }
-        .container { max-width: 600px; margin: auto; padding: 20px; }
-        button { font-family: 'Pacifico',cursive; background-color: #0080ff; color: rgb(15, 14, 14); padding: 10px 15px; cursor: pointer; }
-        h1{color:#24aac2;animation: glow 2s  infinite alternate}
-        p{color:#0b0b0a}
-        h2{color:#daec15 }
-        @keyframes glow {
-    0% { text-shadow: 0 0 5px #fff; }
-    50% { text-shadow: 0 0 20px #d49a11; }
-    100% { text-shadow: 0 0 5px #fff; }
-}
-@keyframes glow-button {
-            0% {
-                box-shadow: 0 0 10px #0ff;
-            }
-            100% {
-                box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
-            }
+        /* Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Pacifico&display=swap');
+
+        /* Reset Default Margins */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-.glow-btn {
-            font-size: 15px;
+
+        /* Body Styling */
+        body {
+            font-family: 'Sacramento', cursive;
+            text-align: center;
+            background-image: url('https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/images/background.jpg'); /* Correct GitHub Image Path */
+            background-size: cover; /* Cover full screen */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent tiling */
+            background-attachment: fixed; /* Keeps it fixed while scrolling */
+            color: white;
+        }
+
+        /* Container */
+        .container {
+            max-width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Responsive Header */
+        h1 {
+            font-size: 7vw; /* Scales with screen width */
+            color: #24aac2;
+            animation: glow 2s infinite alternate;
+        }
+
+        h2 {
+            font-size: 4vw;
+            color: #daec15;
+        }
+
+        p {
+            font-size: 3vw;
+            color: #ffffff;
+        }
+
+        /* Glowing Effect */
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px #fff; }
+            50% { text-shadow: 0 0 20px #d49a11; }
+            100% { text-shadow: 0 0 5px #fff; }
+        }
+
+        /* RSVP Button */
+        .glow-btn {
+            font-size: 4vw; /* Scales with screen size */
             font-weight: bold;
             color: white;
             background: rgb(0, 115, 255);
             border: none;
-            padding: 15px 30px;
+            padding: 12px 20px;
             border-radius: 10px;
             cursor: pointer;
             transition: 0.3s;
-            animation:  infinite alternate;
+            animation: glow-button 1.5s infinite alternate;
         }
 
         .glow-btn:hover {
-            background: #0059ff4e;
-            
+            background: rgba(0, 89, 255, 0.5);
         }
-        .outlined-text {
-            font-size: 45px;
-            font-weight: bold;
-            color: rgba(10, 106, 249, 0.547); /* Text color */
-            -webkit-text-stroke: 2px; /* Outline color and thickness */
-        }
+
+        /* RSVP Button Fixed at Bottom */
         .fixed-button {
-    position: fixed;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
- .text-box {
-            position: absolute;
-            top: 550px; /* Distance from top */
-            left : 550px;
-             /* Distance from left */
-            font-size: 20px;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.278);
-            
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50%;
+            max-width: 200px;
+            padding: 10px 15px;
+            font-size: 3.5vw;
+            text-align: center;
+        }
+
+        /* Text Box with Responsive Positioning */
+        .text-box {
+            position: relative;
+            margin-top: 10vh; /* Adjusts with screen height */
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 8px;
+            display: inline-block;
+            max-width: 80%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 { font-size: 8vw; }
+            h2 { font-size: 5vw; }
+            p { font-size: 4vw; }
+            .text-box { width: 90%; }
         }
   
