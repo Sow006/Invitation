@@ -78,7 +78,7 @@
         /* RSVP Button Fixed at Bottom */
         .fixed-button {
             position: fixed;
-            bottom: 20px;
+            bottom: 40px;
             left: 50%;
             transform: translateX(-50%);
             width: 50%;
@@ -91,7 +91,7 @@
         /* Text Box with Responsive Positioning */
         .text-box {
             position: relative;
-            top: 40vh; /* Adjusts with screen height */
+            top: 43vh; /* Adjusts with screen height */
             background: rgba(0, 0, 0, 0.5);
             padding: 10px;
             border-radius: 8px;
