@@ -35,14 +35,14 @@
 
         /* Responsive Header */
         h1 {
-          top : 10vh;
+          
             font-size: 7vw; /* Scales with screen width */
             color: #24aac2;
             animation: glow 2s infinite alternate;
         }
 
         h2 {
-           top : 20vh;
+           
             font-size: 4vw;
             color: #ecab15c2 ;
         }
@@ -80,7 +80,7 @@
         /* RSVP Button Fixed at Bottom */
         .fixed-button {
             position: fixed;
-            bottom: 80px;
+            bottom: 50px;
             left: 50%;
             transform: translateX(-50%);
             width: 50%;
@@ -93,7 +93,7 @@
         /* Text Box with Responsive Positioning */
         .text-box {
             position: relative;
-            top: 40vh; /* Adjusts with screen height */
+            top: 50vh; /* Adjusts with screen height */
             background: rgba(0, 0, 0, 0.5);
             padding: 10px;
             border-radius: 8px;
