@@ -44,3 +44,17 @@
             color: rgba(7, 113, 113, 0.804); /* Text color */
             -webkit-text-stroke: 2px; /* Outline color and thickness */
         }
+* {
+    border: none;
+}
+
+/* Remove text underlines */
+a {
+    text-decoration: none;
+}
+
+/* Reset margins to remove extra spaces */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
