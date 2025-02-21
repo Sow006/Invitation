@@ -78,7 +78,7 @@
         /* RSVP Button Fixed at Bottom */
         .fixed-button {
             position: fixed;
-            bottom: 70px;
+            bottom: 90px;
             left: 50%;
             transform: translateX(-50%);
             width: 50%;
