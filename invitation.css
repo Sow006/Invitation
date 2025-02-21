@@ -35,12 +35,14 @@
 
         /* Responsive Header */
         h1 {
+          top : 10vh;
             font-size: 7vw; /* Scales with screen width */
             color: #24aac2;
             animation: glow 2s infinite alternate;
         }
 
         h2 {
+           top : 20vh;
             font-size: 4vw;
             color: #ecab15c2 ;
         }
