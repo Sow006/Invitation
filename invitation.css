@@ -42,7 +42,7 @@
 
         h2 {
             font-size: 4vw;
-            color: #daec15;
+            color: #ecab15c2 ;
         }
 
         p {
@@ -91,7 +91,7 @@
         /* Text Box with Responsive Positioning */
         .text-box {
             position: relative;
-            margin-top: 10vh; /* Adjusts with screen height */
+            top: 40vh; /* Adjusts with screen height */
             background: rgba(0, 0, 0, 0.5);
             padding: 10px;
             border-radius: 8px;
