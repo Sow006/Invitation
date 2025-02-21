@@ -18,8 +18,8 @@
         body {
             font-family: 'Sacramento', cursive;
             text-align: center;
-            background-image: url('https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/images/background.jpg'); /* Correct GitHub Image Path */
-            background-size: cover; /* Cover full screen */
+            background-image: url('https://github.com/Sow006/sow006.github.io/blob/main/WhatsApp%20Image%202025-02-20%20at%2011.08.03%20PM.jpeg?raw=true'); /* Correct GitHub Image Path */
+            background-size: contain; /* Cover full screen */
             background-position: center; /* Center the image */
             background-repeat: no-repeat; /* Prevent tiling */
             background-attachment: fixed; /* Keeps it fixed while scrolling */
